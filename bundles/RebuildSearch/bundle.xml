@@ -2,7 +2,7 @@
 <bundle>
 	<!-- controllers exposed by this Bundle -->
 	<controllers>
-        <controller class ="org.torweg.pulse.component.rebuildsearch.RebuildSearchController"/>
+        <controller class ="org.torweg.pulse.components.rebuildsearch.RebuildSearchController"/>
     </controllers>
 	<!-- the implementations of org.torweg.pulse.site.content.Content exposed by this Bundle -->
 	<content-mappings/>
