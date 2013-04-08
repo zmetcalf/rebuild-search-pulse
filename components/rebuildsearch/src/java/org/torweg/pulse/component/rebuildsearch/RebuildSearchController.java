@@ -9,7 +9,7 @@ import org.torweg.pulse.bundle.Controller;
 
 public class RebuildSearchController extends Controller {
     
-    private static final Logger Logger = LoggerFactory
+    private static final Logger LOGGER = LoggerFactory
         .getLogger(RebuildSearchController.class);
         
     @Action("rebuildSearch")
@@ -23,6 +23,4 @@ public class RebuildSearchController extends Controller {
     public final void alwaysRun() {
         LOGGER.info("success of rebuild");
     }
-    
-
 }
